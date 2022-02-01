@@ -6,84 +6,85 @@
 <head>
   <title>Tea Cozy</title>
   <link rel="canonical" href="http://127.0.0.1:5500/index.html">
+  <link href="/dist/output.css" rel="stylesheet">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="Tailwind UI Tea Cozy" content="Tailwind UI example as vanilla HTML that you can adapt yourself.">
-  <script src="https://cdn.tailwindcss.com"></script>
+  <!--<script src="https://cdn.tailwindcss.com"></script>-->
 </head>
 
 <body
-  class="m-auto font-sans text-xl text-gray-400 opacity-90 text-center capitalize bg-neutral-900 overflow-x-hidden xl:container">
-  <nav class="flex items-center justify-between flex-wrap h-28 sticky border-b border-orange-50">
+  class="m-auto overflow-x-hidden font-sans text-xl text-center text-gray-400 capitalize opacity-90 bg-neutral-900 xl:container">
+  <nav class="sticky flex flex-wrap items-center justify-between border-b h-28 border-orange-50">
     <div class="items-center p-2.5">
-      <img class="Sirv bg-cover cursor-default bg-center justify-center"
+      <img class="justify-center bg-center bg-cover cursor-default Sirv"
         data-src="https://adakerci.sirv.com/Images/img-tea-cozy-logo.png" alt="img-tea-cozy-logo">
     </div>
 
     <div class="w-full grid-rows-1 md:flex md:items-center md:w-auto">
-      <div class="md:flex-grow invisible sm:visible">
-        <a href="#mission" class="mt-4 md:inline-block md:mt-0 hover:text-orange-50 mr-4 underline">
+      <div class="invisible md:flex-grow sm:visible">
+        <a href="#mission" class="mt-4 mr-4 underline md:inline-block md:mt-0 hover:text-orange-50">
           mission
         </a>
-        <a href="#featured" class="mt-4 md:inline-block md:mt-0 hover:text-orange-50 mr-4 underline">
+        <a href="#featured" class="mt-4 mr-4 underline md:inline-block md:mt-0 hover:text-orange-50">
           featured
         </a>
-        <a href="#social" class="mt-4 md:inline-block md:mt-0 hover:text-orange-50 mr-4 underline">
+        <a href="#social" class="mt-4 mr-4 underline md:inline-block md:mt-0 hover:text-orange-50">
           social
         </a>
-        <a href="#location" class="mt-4 md:inline-block md:mt-0 hover:text-orange-50 mr-4 underline">
+        <a href="#location" class="mt-4 mr-4 underline md:inline-block md:mt-0 hover:text-orange-50">
           location
         </a>
       </div>
     </div>
   </nav>
 
-  <header class="font-bold flex items-center justify-center relative">
+  <header class="relative flex items-center justify-center font-bold">
     <img data-src="https://adakerci.sirv.com/Images/img-locations-background.jpg" alt="locations" class="Sirv">
     <div
-      class="lg:container opacity-95 backdrop-blur-sm absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-screen text-orange-50 z-50 drop-shadow-2xl cursor-default"
+      class="absolute w-screen -translate-x-1/2 -translate-y-1/2 cursor-default lg:container opacity-95 backdrop-blur-sm top-1/2 left-1/2 text-orange-50 drop-shadow-2xl"
       id="mission">
-      <div class="text-4xl m-2">
+      <div class="m-2 text-4xl">
         our mission
       </div>
-      <div class="text-2xl text-center px-4">
+      <div class="px-4 text-2xl text-center">
         handpicked, artisanally curated, free range, sustainable, small batch,
         fair trade, organic tea
       </div>
     </div>
   </header>
 
-  <main class="font-bold items-center justify-center px-0 cursor-default sm:px-40" id="featured">
-    <span class="text-4xl mt-16 relative block p-4">
+  <main class="items-center justify-center px-0 font-bold cursor-default sm:px-40" id="featured">
+    <span class="relative block p-4 mt-16 text-4xl">
       enjoy some local favorites
     </span>
-    <span class="leading-10 px-1 text-lg">
+    <span class="px-1 text-lg leading-10">
       what's steeping at the tea cozy?
     </span>
 
-    <div class="grid md:grid-cols-3 grid-cols-2 gap-4 justify-center pt-4 text-sm md:text-2xl">
-      <figure id="figmodal-1" class="p-auto cursor-pointer hover:text-orange-50">
+    <div class="grid justify-center grid-cols-2 gap-4 pt-4 text-sm md:grid-cols-3 md:text-2xl">
+      <figure id="figmodal-1" class="cursor-pointer p-auto hover:text-orange-50">
         <img data-src="https://adakerci.sirv.com/Images/img-berryblitz.jpg" alt="berryblitz" class="Sirv hover:opacity-10">
         <figcaption>fall berry blitz tea</figcaption>
       </figure>
-      <figure id="figmodal-2" class="p-auto cursor-pointer hover:text-orange-50">
+      <figure id="figmodal-2" class="cursor-pointer p-auto hover:text-orange-50">
         <img data-src="https://adakerci.sirv.com/Images/img-spiced-rum.jpg" alt="rum" class="Sirv hover:opacity-10">
         <figcaption>spiced rum tea</figcaption>
       </figure>
-      <figure id="figmodal-3" class="p-auto cursor-pointer hover:text-orange-50">
+      <figure id="figmodal-3" class="cursor-pointer p-auto hover:text-orange-50">
         <img data-src="https://adakerci.sirv.com/Images/img-donut.jpg" alt="donut" class="Sirv hover:opacity-10">
         <figcaption>seasonal donuts</figcaption>
       </figure>
-      <figure id="figmodal-4" class="p-auto cursor-pointer hover:text-orange-50">
+      <figure id="figmodal-4" class="cursor-pointer p-auto hover:text-orange-50">
         <img data-src="https://adakerci.sirv.com/Images/img-myrtle-ave.jpg" alt="myrtle" class="Sirv hover:opacity-10">
         <figcaption>myrtle avenue tea</figcaption>
       </figure>
-      <figure id="figmodal-5" class="p-auto cursor-pointer hover:text-orange-50">
+      <figure id="figmodal-5" class="cursor-pointer p-auto hover:text-orange-50">
         <img data-src="https://adakerci.sirv.com/Images/img-bedford-bizarre.jpg" alt="bedford" class="Sirv hover:opacity-10">
         <figcaption>bedford bizarre tea</figcaption>
       </figure>
-      <figure id="figmodal-6" class="p-auto cursor-pointer hover:text-orange-50">
+      <figure id="figmodal-6" class="cursor-pointer p-auto hover:text-orange-50">
         <img data-src="https://adakerci.sirv.com/Images/img-mission-background.jpg" alt="mission" class="Sirv hover:opacity-10">
         <figcaption>berries &amp; granola</figcaption>
       </figure>
@@ -92,63 +93,63 @@
 
     <!--Open modal -->
     <div id="modal-1"
-      class="fixed top-0 left-0 w-screen h-screen flex items-center justify-center bg-gray-900 bg-opacity-50 transform scale-0 transition-transform duration-500">
+      class="fixed top-0 left-0 flex items-center justify-center w-screen h-screen transition-transform duration-500 transform scale-0 bg-gray-900 bg-opacity-50">
       <!--Close modal -->
-      <figure id="closemodal-1" class="p-auto cursor-pointer">
+      <figure id="closemodal-1" class="cursor-pointer p-auto">
         <img data-src="https://adakerci.sirv.com/Images/img-berryblitz.jpg" alt="berryblitz" class="Sirv hover:opacity-75">
       </figure>
     </div>
 
     <!--Open modal -->
     <div id="modal-2"
-      class="fixed top-0 left-0 w-screen h-screen flex items-center justify-center bg-gray-900 bg-opacity-50 transform scale-0 transition-transform duration-500">
+      class="fixed top-0 left-0 flex items-center justify-center w-screen h-screen transition-transform duration-500 transform scale-0 bg-gray-900 bg-opacity-50">
       <!--Close modal -->
-      <figure id="closemodal-2" class="p-auto cursor-pointer">
+      <figure id="closemodal-2" class="cursor-pointer p-auto">
         <img src="./img/img-spiced-rum.jpg" alt="rum" class="hover:opacity-75">
       </figure>
     </div>
 
     <!--Open modal -->
     <div id="modal-3"
-      class="fixed top-0 left-0 w-screen h-screen flex items-center justify-center bg-gray-900 bg-opacity-50 transform scale-0 transition-transform duration-500">
+      class="fixed top-0 left-0 flex items-center justify-center w-screen h-screen transition-transform duration-500 transform scale-0 bg-gray-900 bg-opacity-50">
       <!--Close modal -->
-      <figure id="closemodal-3" class="p-auto cursor-pointer">
+      <figure id="closemodal-3" class="cursor-pointer p-auto">
         <img src="./img/img-donut.jpg" alt="donut" class="hover:opacity-75">
       </figure>
     </div>
 
     <!--Open modal -->
     <div id="modal-4"
-      class="fixed top-0 left-0 w-screen h-screen flex items-center justify-center bg-gray-900 bg-opacity-50 transform scale-0 transition-transform duration-500">
+      class="fixed top-0 left-0 flex items-center justify-center w-screen h-screen transition-transform duration-500 transform scale-0 bg-gray-900 bg-opacity-50">
       <!--Close modal -->
-      <figure id="closemodal-4" class="p-auto cursor-pointer">
+      <figure id="closemodal-4" class="cursor-pointer p-auto">
         <img src="./img/img-myrtle-ave.jpg" alt="myrtle" class="hover:opacity-75">
       </figure>
     </div>
 
     <!--Open modal -->
     <div id="modal-5"
-      class="fixed top-0 left-0 w-screen h-screen flex items-center justify-center bg-gray-900 bg-opacity-50 transform scale-0 transition-transform duration-500">
+      class="fixed top-0 left-0 flex items-center justify-center w-screen h-screen transition-transform duration-500 transform scale-0 bg-gray-900 bg-opacity-50">
       <!--Close modal -->
-      <figure id="closemodal-5" class="p-auto cursor-pointer">
+      <figure id="closemodal-5" class="cursor-pointer p-auto">
         <img src="./img/img-bedford-bizarre.jpg" alt="bizarre" class="hover:opacity-75">
       </figure>
     </div>
 
     <!--Open modal -->
     <div id="modal-6"
-      class="fixed top-0 left-0 w-screen h-screen flex items-center justify-center bg-gray-900 bg-opacity-50 transform scale-0 transition-transform duration-500">
+      class="fixed top-0 left-0 flex items-center justify-center w-screen h-screen transition-transform duration-500 transform scale-0 bg-gray-900 bg-opacity-50">
       <!--Close modal -->
-      <figure id="closemodal-6" class="p-auto cursor-pointer">
+      <figure id="closemodal-6" class="cursor-pointer p-auto">
         <img src="./img/img-mission-background.jpg" alt="mission" class="hover:opacity-75">
       </figure>
     </div>
 
   </main>
 
-  <footer class="text-center lg:text-left text-orange-50 p-8">
-    <div class="flex justify-center items-center lg:justify-between p-8 border-b border-orange-50" id="social">
-      <div class="mr-12 hidden cursor-default lg:block">
+  <footer class="p-8 text-center lg:text-left text-orange-50">
+    <div class="flex items-center justify-center p-8 border-b lg:justify-between border-orange-50" id="social">
+      <div class="hidden mr-12 cursor-default lg:block">
         <span>get connected with us to receive the latest news:</span>
       </div>
       <div class="flex justify-center">
@@ -209,36 +210,28 @@
       </div>
     </div>
 
-    <div id="location" class="mx-6 py-10 text-center text-gray-600 md:text-left leading-10">
-      <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+    <div id="location" class="py-10 mx-6 leading-10 text-center text-gray-600 md:text-left">
+      <div class="grid gap-8 grid-1 md:grid-cols-2 lg:grid-cols-4">
         <div class="cursor-default">
-          <div class="
-            font-semibold
-            mb-4
-            flex
-            items-center
-            justify-center 
-          text-orange-50
-            md:justify-start
-          ">
+          <div class="flex items-center justify-center mb-4 font-semibold text-orange-50 md:justify-start">
             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cubes" class="w-4 mr-4" role="img"
-              xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+              xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
               <path fill-rule="evenodd"
                 d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z"
                 clip-rule="evenodd" />
             </svg>
             Tea Cozy
           </div>
-          <p class="text-orange-50 text-sm">
+          <p class="text-sm text-orange-50">
             come visit us at our three locations across the city of Portland.
           </p>
         </div>
 
         <div class="">
-          <div class="uppercase font-semibold mb-8 flex justify-center md:justify-start text-orange-50 cursor-default ">
+          <div class="flex justify-center mb-8 font-semibold uppercase cursor-default md:justify-start text-orange-50 ">
             countryside
           </div>
-          <p class="flex items-center justify-center text-base md:justify-start mb-4">
+          <p class="flex items-center justify-center mb-4 text-base md:justify-start">
             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="home" class="w-5 mr-3 text-orange-50" role="img"
               xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
               <path fill="currentColor"
@@ -247,7 +240,7 @@
             </svg>
             <span class="text-orange-50 hover:text-gray-400">515 crescent lane</span>
           </p>
-          <p class="flex items-center justify-center text-base lowercase md:justify-start mb-4">
+          <p class="flex items-center justify-center mb-4 text-base lowercase md:justify-start">
             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope" class="w-4 mr-4 text-orange-50"
               role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
               <path fill="currentColor"
@@ -256,7 +249,7 @@
             </svg>
             <span class="text-orange-50 hover:text-gray-400">hillside@teacozy.com</span>
           </p>
-          <p class="flex items-center justify-center text-base md:justify-start mb-4">
+          <p class="flex items-center justify-center mb-4 text-base md:justify-start">
             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone" class="w-4 mr-4 text-orange-50" role="img"
               xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
               <path fill="currentColor"
@@ -268,10 +261,10 @@
         </div>
 
         <div class="">
-          <div class="uppercase font-semibold mb-8 flex justify-center md:justify-start text-orange-50 cursor-default ">
+          <div class="flex justify-center mb-8 font-semibold uppercase cursor-default md:justify-start text-orange-50 ">
             off the docks
           </div>
-          <p class="flex items-center justify-center text-base md:justify-start mb-4">
+          <p class="flex items-center justify-center mb-4 text-base md:justify-start">
             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="home" class="w-5 mr-3 text-orange-50" role="img"
               xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
               <path fill="currentColor"
@@ -280,7 +273,7 @@
             </svg>
             <span class="text-orange-50 hover:text-gray-400">1433 wharf street</span>
           </p>
-          <p class="flex items-center justify-center text-base lowercase md:justify-start mb-4">
+          <p class="flex items-center justify-center mb-4 text-base lowercase md:justify-start">
             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope" class="w-4 mr-4 text-orange-50"
               role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
               <path fill="currentColor"
@@ -289,7 +282,7 @@
             </svg>
             <span class="text-orange-50 hover:text-gray-400">docks@teacozy.com</span>
           </p>
-          <p class="flex items-center justify-center text-base md:justify-start mb-4">
+          <p class="flex items-center justify-center mb-4 text-base md:justify-start">
             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone" class="w-4 mr-4 text-orange-50" role="img"
               xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
               <path fill="currentColor"
@@ -301,10 +294,10 @@
         </div>
 
         <div class="">
-          <div class="uppercase font-semibold mb-8 flex justify-center md:justify-start text-orange-50 cursor-default ">
+          <div class="flex justify-center mb-8 font-semibold uppercase cursor-default md:justify-start text-orange-50 ">
             Downtown
           </div>
-          <p class="flex items-center justify-center text-base md:justify-start mb-4">
+          <p class="flex items-center justify-center mb-4 text-base md:justify-start">
             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="home" class="w-5 mr-3 text-orange-50" role="img"
               xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
               <path fill="currentColor"
@@ -313,7 +306,7 @@
             </svg>
             <span class="text-orange-50 hover:text-gray-400">384 west 4th street</span>
           </p>
-          <p class="flex items-center justify-center text-base lowercase md:justify-start mb-4">
+          <p class="flex items-center justify-center mb-4 text-base lowercase md:justify-start">
             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope" class="w-4 mr-4 text-orange-50"
               role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
               <path fill="currentColor"
@@ -322,7 +315,7 @@
             </svg>
             <span class="text-orange-50 hover:text-gray-400">downtown@teacozy.com</span>
           </p>
-          <p class="flex items-center justify-center text-base md:justify-start mb-4">
+          <p class="flex items-center justify-center mb-4 text-base md:justify-start">
             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone" class="w-4 mr-4 text-orange-50" role="img"
               xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
               <path fill="currentColor"
@@ -335,12 +328,12 @@
 
       </div>
     </div>
-    <div class="text-center p-6">
+    <div class="p-6 text-center">
       <span class="cursor-default">© 2021</span>
       <a class="font-semibold hover:text-gray-400" href="https://github.com/milliorn">the cozy tea</a>
     </div>
   </footer>
-  <script src="index.js"></script>
+  <script src="./index.js"></script>
 </body>
 
 
