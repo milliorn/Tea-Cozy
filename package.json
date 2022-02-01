@@ -1,0 +1,20 @@
+{
+  "name": "tailwind-tea-cozy",
+  "version": "1.0.0",
+  "description": "Template done in Tailwind UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milliorn/Tailwind-Tea-Cozy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milliorn/Tailwind-Tea-Cozy/issues"
+  },
+  "homepage": "https://github.com/milliorn/Tailwind-Tea-Cozy#readme"
+}
