@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/milliorn/Tailwind-Tea-Cozy/issues"
   },
-  "homepage": "https://github.com/milliorn/Tailwind-Tea-Cozy#readme"
+  "homepage": "https://github.com/milliorn/Tailwind-Tea-Cozy#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.18"
+  }
 }
