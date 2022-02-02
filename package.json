@@ -4,7 +4,7 @@
   "description": "Template done in Tailwind UI",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,11 @@
   },
   "homepage": "https://github.com/milliorn/Tailwind-Tea-Cozy#readme",
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^4.1.3",
+    "postcss": "^8.4.6",
     "tailwindcss": "3.0.18"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.2"
   }
 }
